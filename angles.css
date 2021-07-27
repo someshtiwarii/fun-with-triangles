@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.input1,
+.input2,
+.input3 {
+
+    text-align: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+input[type="number"] {
+    background-color: cyan;
+    border-radius: 10px;
+    width: 5%;
+    padding: 0.5rem;
+}
+
+
+.backBtn,
+.outputBtn {
+    padding-top: 5vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+input[type="button"] {
+    border: none;
+    border-radius: 10px;
+    background-color: turquoise;
+    font-size: larger;
+    padding: 16px 32px;
+    transition: transform 0.2s;
+
+}
+
+input[type="button"]:hover {
+    transform: scale(1.05);
+}
