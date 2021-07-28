@@ -1,8 +1,10 @@
 body {
-    background-image: url('img.jpg');
+    background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 120%;
+    background-size: 100% 150%;
+
+
     margin: 0;
 
 }

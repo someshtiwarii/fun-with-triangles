@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.backBtn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+
+}
+
+h1 {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.question {
+
+    border-radius: 10px;
+    background-color: turquoise;
+    font-size: larger;
+
+}
+
+
+.outputBtn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+
+}
+
+input[type="button"] {
+    border: none;
+    border-radius: 10px;
+    background-color: turquoise;
+    font-size: larger;
+    padding: 16px 32px;
+    transition: transform 0.2s;
+
+}
+
+input[type="button"]:hover {
+    transform: scale(1.05);
+}
+
+.output {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+}
