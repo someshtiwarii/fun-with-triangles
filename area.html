@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,54 @@
     <title>Angles of a triangle</title>
     <link rel="stylesheet" href="angles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="backBtn">
-            <a href="index.html"/><input type="button" value="Go Back"><a>
+            <a href="index.html" /><input type="button" value="Go Back"><a>
         </div>
         <h1>
             Enter the sides below to calculate Area of triangle!
         </h1>
         <div class="input1">
-            <input type="number">
+            <input type="number" class="inp1">
         </div>
         <div class="input2">
-            <input type="number">
+            <input type="number" class="inp2">
         </div>
-        
+
         <div class="outputBtn">
-            <input type="button" value="Calculate">
+            <input type="button" class="checkBtn" value="Calculate">
         </div>
-        
-        
+
+
         <div class="output">
-            
-            
+
+
         </div>
-
-
-
-
-
-
     </div>
-    
-    
+
+    <script>
+        const firstInput = document.querySelector(".inp1");
+        const secondInput = document.querySelector(".inp2");
+        const outBtn= document.querySelector(".checkBtn");
+        const result= document.querySelector(".output");
+        let lengthA, lengthB;
+
+        outBtn.addEventListener("click",function (){
+            lengthA= Number(firstInput.value);
+            lengthB= Number(secondInput.value);
+
+            result.innerText= Number(0.5*lengthA*lengthB);
+
+            
+        });
+
+
+    </script>
+
+
+
 </body>
+
 </html>

@@ -15,28 +15,40 @@
         <h1>
             Enter the sides below to calculate hypotenuse!
         </h1>
-        <div class="input1">
-            <input type="number">
+        <div class="input1" >
+            <input type="number" class="inp1">
         </div>
         <div class="input2">
-            <input type="number">
+            <input type="number" class="inp2">
         </div>
         
         <div class="outputBtn">
-            <input type="button" value="Calculate">
+            <input type="button" class="checkBtn" value="Calculate">
         </div>
 
         <div class="output">
             
-            
         </div>
-
-
-
-
-
-
     </div>
+    <script>
+        const firstInput = document.querySelector(".inp1");
+        const secondInput = document.querySelector(".inp2");
+        const outBtn= document.querySelector(".checkBtn");
+        const result= document.querySelector(".output");
+        let lengthA, lengthB;
+
+        outBtn.addEventListener("click",function (){
+            lengthA= Number(firstInput.value);
+            lengthB= Number(secondInput.value);
+
+            result.innerText= Math.sqrt((lengthA*lengthA) + (lengthB*lengthB));
+
+            
+        });
+
+
+    </script>
+
     
     
 </body>

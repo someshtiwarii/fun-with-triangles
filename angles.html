@@ -16,28 +16,47 @@
             Enter the angles below to check if they will make a triangle!
         </h1>
         <div class="input1">
-            <input type="number">
+            <input type="number" class="inp1">
         </div>
         <div class="input2">
-            <input type="number">
+            <input type="number"  class="inp2">
         </div>
         <div class="input3">
-            <input type="number">
+            <input type="number"  class="inp3">
         </div>
         <div class="outputBtn">
-            <input type="button" value="check">
+            <input type="button" class="checkBtn" value="check">
         </div>
         <div class="output">
-            
-            
+                
         </div>
-
-
-
-
-
-
     </div>
+    <script>
+    const firstInput = document.querySelector(".inp1");
+    const secondInput = document.querySelector(".inp2");
+    const thirdInput = document.querySelector(".inp3");
+    const outBtn= document.querySelector(".checkBtn");
+    const result= document.querySelector(".output");
+    let lengthA, lengthB, lengthC;
+
+    outBtn.addEventListener("click",function (){
+        lengthA= Number(firstInput.value);
+        lengthB= Number(secondInput.value);
+        lengthC= Number(thirdInput.value);
+
+        if(lengthA+lengthB+lengthC===180){
+            result.innerText="Yay! It will make a triangle !";
+        }
+        else{
+            result.innerText="Nope! It won't make a triangle !";
+        }
+
+
+        
+
+        
+    });
+    </script>
     
     
 </body>
