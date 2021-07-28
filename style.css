@@ -1,6 +1,12 @@
 body {
-    background-image: ;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 120%;
+    margin: 0;
+
 }
+
 
 
 h1 {
