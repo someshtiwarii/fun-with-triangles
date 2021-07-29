@@ -60,7 +60,8 @@ input[type=button] {
     padding: 16px 32px;
     cursor: pointer;
     font-size: larger;
-    background-color: pink;
+    color: white;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
     transition: transform 0.2s;
 
 }

@@ -47,3 +47,13 @@ input[type="button"] {
 input[type="button"]:hover {
     transform: scale(1.05);
 }
+
+.output {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-top: 1rem;
+    font-size: 25px;
+
+}

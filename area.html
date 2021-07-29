@@ -40,13 +40,15 @@
         const secondInput = document.querySelector(".inp2");
         const outBtn= document.querySelector(".checkBtn");
         const result= document.querySelector(".output");
-        let lengthA, lengthB;
+        let lengthA, lengthB,area;
 
         outBtn.addEventListener("click",function (){
             lengthA= Number(firstInput.value);
             lengthB= Number(secondInput.value);
 
-            result.innerText= Number(0.5*lengthA*lengthB);
+            area= Number(0.5*lengthA*lengthB);
+
+            result.innerText= ("Area will be " + Number(area));
 
             
         });

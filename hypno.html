@@ -35,13 +35,16 @@
         const secondInput = document.querySelector(".inp2");
         const outBtn= document.querySelector(".checkBtn");
         const result= document.querySelector(".output");
-        let lengthA, lengthB;
+        let lengthA, lengthB,hypno;
 
         outBtn.addEventListener("click",function (){
             lengthA= Number(firstInput.value);
             lengthB= Number(secondInput.value);
 
-            result.innerText= Math.sqrt((lengthA*lengthA) + (lengthB*lengthB));
+            hypno= Math.sqrt((lengthA*lengthA) + (lengthB*lengthB));
+
+            result.innerText=("Hypnotenuse will be " + Number(hypno));
+
 
             
         });
