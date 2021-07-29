@@ -1,3 +1,14 @@
+body {
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+
+}
+
+
+
 h1 {
     text-align: center;
     justify-content: center;
@@ -56,4 +67,10 @@ input[type="button"]:hover {
     padding-top: 1rem;
     font-size: 25px;
 
+}
+
+.footer {
+    padding-top: 17vh;
+    align-items: center;
+    text-align: center;
 }
