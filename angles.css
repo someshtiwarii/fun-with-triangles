@@ -49,6 +49,7 @@ input[type="button"] {
     font-size: larger;
     padding: 16px 32px;
     transition: transform 0.2s;
+    cursor: pointer;
 
 }
 
