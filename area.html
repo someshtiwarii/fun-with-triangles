@@ -50,10 +50,14 @@
             lengthA= Number(firstInput.value);
             lengthB= Number(secondInput.value);
 
+            if(lengthA>0 && lengthB){
             area= Number(0.5*lengthA*lengthB);
 
             result.innerText= ("Area will be " + Number(area).toFixed(1));
-
+            }
+            else{
+                result.innerText="Please enter positive values";
+            }
             
         });
 
