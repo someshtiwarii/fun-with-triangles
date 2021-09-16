@@ -18,10 +18,10 @@
             Enter the sides below to calculate Area of triangle!
         </h1>
         <div class="input1">
-            <input type="number" class="inp1">
+            <input type="number" class="inp1" placeholder="base">
         </div>
         <div class="input2">
-            <input type="number" class="inp2">
+            <input type="number" class="inp2" placeholder="height">
         </div>
 
         <div class="outputBtn">
@@ -50,7 +50,7 @@
             lengthA= Number(firstInput.value);
             lengthB= Number(secondInput.value);
 
-            if(lengthA>0 && lengthB){
+            if(lengthA>0 && lengthB>0){
             area= Number(0.5*lengthA*lengthB);
 
             result.innerText= ("Area will be " + Number(area).toFixed(1));
